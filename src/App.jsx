@@ -1,16 +1,19 @@
-import { About,Header,Testimonials,Services,Experience,Contact } from './containers'
+import { Navbar } from './components'
+import { About,Header,Testimonials,Services,Experience,Contact, Footer } from './containers'
 import './App.css'
 
 
 const App = () => {
   return (
     <section>
-      <About/>
       <Header/>
-      <Testimonials/>
-      <Services/>
+      <Navbar/>      
+      <About/>
       <Experience/>
+      <Services/>              
+      <Testimonials/>    
       <Contact/>
+      <Footer/>     
     </section>
 
     

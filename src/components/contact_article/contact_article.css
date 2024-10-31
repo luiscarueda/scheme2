@@ -1,0 +1,13 @@
+.contact__option{
+    background: var(--bg-variant-color);
+    padding: 1.2rem;
+    border-radius: 1.2rem;
+    text-align: center;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.contact__option:hover{
+    background: transparent;
+    border-color: var(--primary-variant-color);
+}
