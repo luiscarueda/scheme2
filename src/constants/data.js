@@ -1,4 +1,4 @@
-import { photo01,photo02,AVTR1,AVTR2,AVTR3,AVTR4  } from "./images";
+import { photo01,photo02,AVTR01,AVTR02,AVTR03,AVTR04  } from "./images";
 
 export  const HEADER = {
     tag: 'Get mi nombtr',
@@ -38,10 +38,9 @@ export const EXPERIENCE = {
          { title: 'CSS' , element:'papa',    },
          { title: 'HTML' , element:'hijo',   },
       ], 
-    };
-  
+    };  
 
-   export  const SERVICES = {
+export  const SERVICES = {
     
     tag:'What I Offer',
     title :'SERVICES',
@@ -65,37 +64,34 @@ export const EXPERIENCE = {
           element2:'ipsum3',
           element3:'ipsum',
         },
-
     ],
-  };   
-   
-  export  const TESTIMONIALS = {
+  }; 
+  
+export  const TESTIMONIALS = {
 
     tag: 'Review from Clients ',
     title:'TESTIMONIALS', 
     data : [
-      { names: 'MAMA',opinion: 'la mejor conferencia del mundo OPINION ',icon : AVTR1,},
-      { names: 'PAPA',opinion: 'titulo2',icon : AVTR2, },
-      { names: 'PEPE  ', opinion: 'titulo3', icon : AVTR3,},
-      { names: 'HIJO  ', opinion: 'titulo3', icon : AVTR4,},
-
+      { name: 'MAMA',   opinion: 'titulo 1',icon : AVTR01,},
+      { name: 'PAPA',   opinion: 'titulo 2',icon : AVTR02, },
+      { name: 'PEPE  ', opinion: 'titulo 3', icon : AVTR03,},
+      { name: 'HIJO  ', opinion: 'titulo 4', icon : AVTR04,},
    ],
   }; 
 
-  export  const CONTACT = {
+export  const CONTACT = {
     tag :'Get in Touch',
     title:'CONTACT ME',
   };
 
-  export  const FOOTER={
+export  const FOOTER={
     title : 'LUIS CARLOS',
     links : [
-      { text : 'HOME', url:'#' },
-      { text : 'ABOUT ME', url:'#about' },
-      { text : 'EXPERIENCE', url:'#experience' },
-      { text : 'SERVICES', url:'#services' },
-      { text : 'TESTIMONIALS', url:'#testimonials' },
-      { text : 'CONTACT', url:'#contact' },      
+      { label : 'HOME',        href:'#' },
+      { label : 'ABOUT ME',    href:'#about' },
+      { label : 'EXPERIENCE',  href:'#experience' },
+      { label : 'SERVICES',    href:'#services' },
+      { label : 'TESTIMONIALS',href:'#testimonials' },
+      { label : 'CONTACT',     href:'#contact' },      
     ],
   };
-

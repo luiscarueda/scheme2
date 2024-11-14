@@ -20,7 +20,7 @@ const Footer = () => {
         {
           FOOTER.links.map((item,index)=>(
              <li key={index}>
-                <a href={item.url}>{item.text}</a>
+                <a href={item.href}>{item.label}</a>
               </li>
           ))}       
      </ul> 

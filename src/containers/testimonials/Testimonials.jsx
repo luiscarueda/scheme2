@@ -32,7 +32,7 @@ const Testimonials = () => {
                   <div className="client__avatar">
                     <img src={item.icon} alt="avatar" />
                   </div>
-                  <h5 className='client__name'>{item.names}</h5>
+                  <h5 className='client__name'>{item.name}</h5>
                   <small className='client__review'>{item.opinion}</small>
                 </SwiperSlide>
             ))}                
